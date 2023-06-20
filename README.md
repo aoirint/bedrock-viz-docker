@@ -18,4 +18,4 @@ sudo docker run --rm --init -v './worlds:/worlds' -v './build:/build' aoirint/be
 
 ## License
 
-The code of Dockerfile is borrowed from [bedrock-viz/bedrock-viz](https://github.com/bedrock-viz/bedrock-viz) (GPLv2).
+The original code of Dockerfile is borrowed from [bedrock-viz/bedrock-viz](https://github.com/bedrock-viz/bedrock-viz) (GPLv2).
