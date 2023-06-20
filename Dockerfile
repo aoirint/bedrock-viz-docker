@@ -44,6 +44,7 @@ RUN <<EOF
     gosu user git clone "${BEDROCK_VIZ_URL}" /opt/bedrock-viz-build
     cd /opt/bedrock-viz-build
     gosu user git checkout "${BEDROCK_VIZ_VERSION}"
+    gosu user git submodule update --init --recursive
 
     gosu user patch -f -p0 < patches/leveldb-1.22.patch
     gosu user patch -f -p0 < patches/pugixml-disable-install.patch
