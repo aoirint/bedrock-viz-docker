@@ -45,8 +45,8 @@ RUN <<EOF
     cd /opt/bedrock-viz-build
     gosu user git checkout "${BEDROCK_VIZ_VERSION}"
 
-    gosu user patch -p0 < patches/leveldb-1.22.patch
-    gosu user patch -p0 < patches/pugixml-disable-install.patch
+    gosu user patch -f -p0 < patches/leveldb-1.22.patch
+    gosu user patch -f -p0 < patches/pugixml-disable-install.patch
     
     mkdir -p build
     chown -R user:user build
