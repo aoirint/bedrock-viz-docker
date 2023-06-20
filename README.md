@@ -1,6 +1,6 @@
 # bedrock-viz-docker
 
-Dockerfile for [bedrock-viz/bedrock-viz](https://github.com/bedrock-viz/bedrock-viz).
+Unofficial Dockerfile for [bedrock-viz/bedrock-viz](https://github.com/bedrock-viz/bedrock-viz).
 
 ## Usage
 
